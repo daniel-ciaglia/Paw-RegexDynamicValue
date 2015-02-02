@@ -1,12 +1,6 @@
-[![Build Status](https://travis-ci.org/luckymarmot/Paw-RegexDynamicValue.svg?branch=master)](https://travis-ci.org/luckymarmot/Paw-RegexDynamicValue)
+#Regex Use Dynamic Value (Paw Extension)
 
-#Regex Dynamic Value (Paw Extension)
-
-A [Paw Extension](http://luckymarmot.com/paw/extensions/) to match and replace a pattern in an input string. It uses the JavaScript [replace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) method, so the regular expression syntax must follow the JavaScript syntax (see [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) object).
-
-## Installation
-
-Easily install this Paw Extension: [Install Regex Dynamic Value](http://luckymarmot.com/paw/extensions/RegexDynamicValue)
+A [Paw Extension](http://luckymarmot.com/paw/extensions/) to match and use a pattern in an input string. It uses the JavaScript [match](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match) method, so the regular expression syntax must follow the JavaScript syntax (see [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) object).
 
 ## Development
 
@@ -30,7 +24,7 @@ cake watch
 
 This Paw Extension is released under the [MIT License](LICENSE). Feel free to fork, and modify!
 
-Copyright © 2014 Paw Inc.
+Copyright © 2015 kreuzwerker GmbH
 
 ##Contributors
 
