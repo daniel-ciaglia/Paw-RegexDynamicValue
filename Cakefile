@@ -6,7 +6,7 @@ fs = require 'fs'
 file = 'RegexUseDynamicValue.coffee'
 identifier = 'de.kreuzwerker.PawExtensions.RegexUseDynamicValue'
 
-extensions_dir = "#{ process.env.HOME }/Library/Containers/de.kreuzwerker.Paw/Data/Library/Application Support/de.kreuzwerker.Paw/Extensions/"
+extensions_dir = "#{ process.env.HOME }/Library/Containers/com.luckymarmot.Paw/Data/Library/Application Support/com.luckymarmot.Paw/Extensions/"
 build_root_dir = "build"
 build_dir = "#{ build_root_dir }/#{ identifier }"
 
