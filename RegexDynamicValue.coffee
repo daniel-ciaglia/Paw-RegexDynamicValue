@@ -19,7 +19,7 @@ RegexUseDynamicValue = () ->
 
 
 RegexUseDynamicValue.identifier = "de.kreuzwerker.PawExtensions.RegexUseDynamicValue"
-RegexUseDynamicValue.title = "Regex Dynamic Value"
+RegexUseDynamicValue.title = "Regex Use Dynamic Value"
 RegexUseDynamicValue.inputs = [
     DynamicValueInput "regex", "Regex", "String"
     DynamicValueInput "input", "Input", "String"
