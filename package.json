@@ -1,6 +1,6 @@
 {
-  "name": "Paw-RegexDynamicValue",
-  "version": "1.0.0",
+  "name": "Paw-RegexUseDynamicValue",
+  "version": "0.0.1",
   "devDependencies": {
     "coffee-script": "latest",
     "mkdirp": "~0.5.0",
@@ -8,6 +8,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:luckymarmot/Paw-RegexDynamicValue.git"
+    "url": "git@github.com:daniel-ciaglia/Paw-RegexUseDynamicValue.git"
   }
 }
