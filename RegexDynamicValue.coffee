@@ -1,9 +1,9 @@
-RegexDynamicValue = () ->
+RegexUseDynamicValue = () ->
 
     @evaluate = () ->
         regex = new RegExp @regex, 'g'
         if @input
-            @input.replace(regex, @replacement)
+            @input.match(regex)
 
     @title = () ->
         if @regex and @regex.length > 0
@@ -18,12 +18,11 @@ RegexDynamicValue = () ->
     return
 
 
-RegexDynamicValue.identifier = "com.luckymarmot.PawExtensions.RegexDynamicValue"
-RegexDynamicValue.title = "Regex Dynamic Value"
-RegexDynamicValue.inputs = [
+RegexUseDynamicValue.identifier = "de.kreuzwerker.PawExtensions.RegexUseDynamicValue"
+RegexUseDynamicValue.title = "Regex Dynamic Value"
+RegexUseDynamicValue.inputs = [
     DynamicValueInput "regex", "Regex", "String"
     DynamicValueInput "input", "Input", "String"
-    DynamicValueInput "replacement", "Replacement", "String"
 ]
 
-registerDynamicValueClass RegexDynamicValue
+registerDynamicValueClass RegexUseDynamicValue
